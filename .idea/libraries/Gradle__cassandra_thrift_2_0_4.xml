@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: cassandra-thrift-2.0.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/cassandra/cassandra-thrift/2.0.4/cassandra-thrift-2.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: jasypt-spring3-1.9.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jasypt/jasypt-spring3/1.9.1/jasypt-spring3-1.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

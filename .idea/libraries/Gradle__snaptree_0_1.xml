@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: snaptree-0.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/stanford/ppl/snaptree/0.1/snaptree-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

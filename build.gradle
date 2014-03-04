@@ -1,0 +1,60 @@
+apply plugin: 'java'  // adds 'test' task
+apply plugin:'application' // add ability to run mainClassName
+apply plugin: 'project-report'
+
+
+// gradle -q dependencies
+// ResolvableDependencies.getResolutionResult()
+
+
+configurations.all {
+    resolutionStrategy {
+        // fail eagerly on version conflict (includes transitive dependencies)
+        // e.g. multiple different versions of the same dependency (group and name are equal)
+        //failOnVersionConflict()
+    }
+}
+
+configurations {
+    mmInstrumentationAgent
+}
+
+mainClassName = "com.and.wellnessconnected.cassandra.SimpleClient"
+
+repositories {
+
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+    // DO NOT USE THE 'JAR' DIRECTIVE - that will cause
+    // gradle to look for the resource in the jar/ dir, which probably does not exist!
+    mmInstrumentationAgent('com.github.stephenc:jamm:0.2.5')
+
+    compile("org.cassandraunit:cassandra-unit:2.0.2.0")
+    compile("com.datastax.cassandra:cassandra-driver-core:2.0.0-rc2")
+
+    compile("org.apache.cassandra:cassandra-thrift:2.0.4")
+    compile("org.apache.thrift:libthrift:0.9.1")
+    compile("org.jasypt:jasypt-spring3:1.9.1")
+    compile("com.and.wcapi.backend:readinglib:1.2")
+    compile("org.xerial.snappy:snappy-java:1.1.0.1")
+    compile("org.cassandraunit:cassandra-unit:2.0.2.1-SNAPSHOT")
+    compile("org.springframework:spring-beans:3.1.2.RELEASE")
+    compile("org.springframework:spring-core:3.1.2.RELEASE")
+    compile("org.springframework:spring-context:3.1.2.RELEASE")
+    compile("org.codehaus.jackson:jackson-core-asl:1.9.13")
+    compile("org.codehaus.jackson:jackson-mapper-asl:1.9.13")
+
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+}
+
+
+// setting jvmArgs solves this error:
+// java.lang.IllegalStateException: Instrumentation is not set; Jamm must be set as -javaagent
+// by adding jamm memory management to the classpath before running tests
+test {
+    jvmArgs "-javaagent:$configurations.mmInstrumentationAgent.singleFile"
+}
+

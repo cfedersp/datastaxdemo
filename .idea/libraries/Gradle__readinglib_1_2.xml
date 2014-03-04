@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: readinglib-1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/and/wcapi/backend/readinglib/1.2/readinglib-1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

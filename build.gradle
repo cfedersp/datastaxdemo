@@ -38,7 +38,6 @@ dependencies {
     compile("org.apache.cassandra:cassandra-thrift:2.0.4")
     compile("org.apache.thrift:libthrift:0.9.1")
     compile("org.jasypt:jasypt-spring3:1.9.1")
-    compile("com.and.wcapi.backend:readinglib:1.2")
     compile("org.xerial.snappy:snappy-java:1.1.0.1")
     compile("org.cassandraunit:cassandra-unit:2.0.2.1-SNAPSHOT")
     compile("org.springframework:spring-beans:3.1.2.RELEASE")

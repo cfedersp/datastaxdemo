@@ -67,10 +67,8 @@
       <file leaf-file-name="ReadingsManager.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="55" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.77363896" vertical-offset="1185" max-vertical-offset="4920">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="14" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.2835165" vertical-offset="81" max-vertical-offset="4815">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,7 +76,16 @@
       <file leaf-file-name="ReadingsDatabaseInitializer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsDatabaseInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="204" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="990">
+            <state line="45" column="28" selection-start="1938" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="990">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="46" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-12.6" vertical-offset="270" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -103,7 +110,18 @@
       <file leaf-file-name="BCAGenerator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/BCAGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="383" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="10" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPGenerator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/BPGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -369,13 +387,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsDatabaseInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/models/StoredReading.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/models/DeviceReadingReadingSourceIdGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsManager.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="27" />
+    <option name="x" value="-6" />
+    <option name="y" value="32" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
   </component>
@@ -468,32 +488,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cassandra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastaxdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datastaxdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wellnessconnected" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -752,15 +746,15 @@
       <created>1393911821599</created>
       <updated>1393911821599</updated>
       <workItem from="1393911823262" duration="2644000" />
-      <workItem from="1393925987109" duration="3533000" />
+      <workItem from="1393925987109" duration="4915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6177000" />
+    <option name="totallyTimeSpent" value="7559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="27" width="1440" height="808" extended-state="0" />
+    <frame x="-6" y="32" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -769,6 +763,7 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882273" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -788,7 +783,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -812,9 +806,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="23" selection-start="4661" selection-end="4672" vertical-scroll-proportion="0.0" vertical-offset="1650" max-vertical-offset="6195">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -835,13 +827,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/models/StoredReading.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1095">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsDatabaseInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="204" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="990">
           <folding />
         </state>
       </provider>
@@ -869,28 +854,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/BPGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="283" selection-end="283" vertical-scroll-proportion="0.16877638" vertical-offset="0" max-vertical-offset="711">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/models/ReadingAddress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="109" selection-end="109" vertical-scroll-proportion="0.08438819" vertical-offset="0" max-vertical-offset="711">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/BCAGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="383" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -908,12 +875,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsDatabaseInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="55" selection-start="5033" selection-end="5033" vertical-scroll-proportion="0.77363896" vertical-offset="1185" max-vertical-offset="4920">
+        <state line="45" column="28" selection-start="1938" selection-end="2199" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="46" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-12.6" vertical-offset="270" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/BCAGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/and/wellnessconnected/cassandra/BPGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/and/wellnessconnected/cassandra/ReadingsManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.2835165" vertical-offset="81" max-vertical-offset="4815">
+          <folding />
         </state>
       </provider>
     </entry>

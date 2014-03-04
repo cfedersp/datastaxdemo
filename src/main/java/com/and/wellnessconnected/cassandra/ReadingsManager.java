@@ -13,8 +13,6 @@ import com.datastax.driver.core.exceptions.QueryExecutionException;
 import com.datastax.driver.core.exceptions.QueryValidationException;
 
 import com.datastax.driver.core.Row;
-
-import com.and.wellnessconnected.models.DeviceReadingReadingSourceIdGenerator;
 import com.and.wellnessconnected.models.ReadingAddress;
 import com.and.wellnessconnected.models.StoredReading;
 import com.datastax.driver.core.Session;
@@ -27,18 +25,11 @@ import com.datastax.driver.core.Session;
  */
 public class ReadingsManager implements NoSQLBackend {
 
-	
-	protected DeviceReadingReadingSourceIdGenerator sourceIdGenerator = new DeviceReadingReadingSourceIdGenerator();
 
 	protected SimpleClient client = null;
 
     protected String keySpaceName = null;
     protected String tableName = null;
-
-	
-	public DeviceReadingReadingSourceIdGenerator getDeviceReadingSourceIdGenerator() {
-		return sourceIdGenerator;
-	}
 
 	
 	public ReadingsManager(String keySpaceName, String readingsTableName) {
